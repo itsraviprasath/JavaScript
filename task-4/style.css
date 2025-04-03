@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  margin: 50px;
+}
+input {
+  padding: 10px;
+  margin: 10px;
+}
+button {
+  padding: 10px;
+}
+#weather-info {
+  margin-top: 20px;
+}

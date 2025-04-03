@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+.post {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+.loading {
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 20px;
+  display: none;
+}

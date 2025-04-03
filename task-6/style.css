@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+.draggable-list {
+  list-style: none;
+  padding: 0;
+}
+.draggable-item {
+  padding: 10px;
+  margin: 5px 0;
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  cursor: grab;
+  border-radius: 5px;
+  transition: background 0.2s;
+}
+.draggable-item.dragging {
+  opacity: 0.5;
+  background: lightblue;
+}
+.draggable-item.over {
+  border: 2px dashed #007bff;
+}
