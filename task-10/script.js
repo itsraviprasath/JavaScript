@@ -86,7 +86,7 @@ function removeFromCart(productId) {
 // Calculate total price
 function updateTotal() {
   const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
-  totalContainer.innerHTML = `Total: $${total.toFixed(2)}`;
+  totalContainer.innerHTML = `Total: ₹${total.toFixed(2)}`;
 }
 
 // Initialize
